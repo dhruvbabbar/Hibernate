@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-<class name="Student" table="STUDENT">
+<class name="com.hibernate01.model.Student" table="STUDENT">
 <id column="ID" name="id" type="long" />
 <property column="STUDENT_NAME" name="name" type="string" />
 <property column="DEGREE" name="degree" type="string" />
